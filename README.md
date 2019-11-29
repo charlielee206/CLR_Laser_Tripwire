@@ -9,3 +9,5 @@
 아두이노 키보드 라이브러리 정보: https://www.arduino.cc/reference/en/language/functions/usb/keyboard/
 
 회로도, 조립, 사용 등의 자세한 정보는 유튜브 영상 과 네이버 블로그 를 참조해주시길 바랍니다.
+
+블로그: https://blog.naver.com/charlielee206/221718389404
