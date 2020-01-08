@@ -20,7 +20,7 @@ void loop()
     {
       delay(50);  
       if(analogRead(0) <= 400) //if 문을 2번 사용한건, 레이저 자체의 문제로 인해서 가끔식 레이저가 일시적으로 깜빡거릴때가 있어서 이때 작동되는걸 방지하기 위해서입니다. 필요 없다 생각하시면 빼셔도 됩니다.
-      {
+      { // 여기에 사람 감지 시 작동되는 코드를 넣으시면 됩니다.
          Serial.println("AAAAAAAA"); // 시리얼. 필요없습니다. 디버깅 용.
          Keyboard.press(KEY_LEFT_ALT);
          delay(1);
